@@ -12,22 +12,23 @@ The method is designed to work with 3 variables and one constraint but can easil
 
 Reduced gradient is calculated as follows, with B - basic variable vector, NB - non-basic variable vector.
 
-**Insert img**
+<img width="400px" src="examples/red.png">
 
 The step for basic variables is calculated according to the negative reduced gradient.
 
-**Insert img**
+<img width="200px" src="examples/stepb.png">
 
 By solving the system of constraint equations we get non basic variables.
-
-**Insert img**
 
 ## Examples
 
 The following examples use the ellipsoid volume formula divided in half
-**Insert img**
+
+<img width="300px" src="examples/obj.png">
+
 and the total ellipsoid surface area formula divided in half as a constraint.
-**Insert img**
+
+<img width="150px" src="examples/const.png"/>
 
 **With surface area equal to 100**
 Start X | Start volume | Time (s) | Iterations | Result X | Result
@@ -38,7 +39,8 @@ Start X | Start volume | Time (s) | Iterations | Result X | Result
 (0.5 0.6 7) | 4.39 | 0.346 | 80 | (3.9898    3.9898    3.9913) | 132.999
 
 *Plot with starting point (2 3 4)*
-**Insert img**
+
+<img width="400px" src="examples/scn.jpg"/>
 
 **With surface area equal to 24.5**
 Start X | Start volume | Time (s) | Iterations | Result X | Result
@@ -49,4 +51,5 @@ Start X | Start volume | Time (s) | Iterations | Result X | Result
 (0.7 0.2 0.8) | 0.23 | 0.334 | 10 | (1.9764    1.9737    1.9749) | 16.1263
 
 *Plot with starting point (0.7 0.2 0.8)*
-**Insert img**
+
+<img width="400px" src="examples/fst.jpg"/>
